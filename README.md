@@ -151,6 +151,51 @@ The following firmware modules are supported and must be placed in shadPS4's `sy
 
 <div align="Left">
 
+### Supported firmware modules
+
+#### Audio & AV modules
+| No. | Module |
+|-----:|--------|
+| 1 | libSceAt9Enc.sprx |
+| 2 | libSceAudiodec.sprx |
+| 3 | libSceAudiodecCpu.sprx |
+| 4 | libSceAudiodecCpuDdp.sprx |
+| 5 | libSceAudiodecCpuDtsHdLbr.sprx |
+| 6 | libSceAudiodecCpuHevag.sprx |
+| 7 | libSceAudiodecCpuM4aac.sprx |
+| 8 | libSceAvPlayer.sprx |
+| 9 | libSceAvPlayerStreaming.sprx |
+| 10 | libSceBeisobmf.sprx |
+| 11 | libSceBemp2sys.sprx |
+| 12 | libSceCesCs.sprx |
+| 13 | libSceNgs2.sprx |
+| 14 | libSceUlt.sprx |
+| 15 | libSceFont.sprx |
+| 16 | libSceFontFt.sprx |
+| 17 | libSceFreeTypeOl.sprx |
+| 18 | libSceFreeTypeOptOl.sprx |
+| 19 | libSceFreeTypeOt.sprx |
+| 20 | libSceWkFontConfig.sprx |
+| 21 | libSceJpegDec.sprx |
+| 22 | libSceJpegEnc.sprx |
+| 23 | libScePngEnc.sprx |
+| 24 | libSceDepth.sprx |
+| 25 | libSceJson.sprx |
+| 26 | libSceJson2.sprx |
+| 27 | libSceXml.sprx |
+| 28 | libSceLibcInternal.sprx |
+| 29 | libScePsmKitSystem.sprx |
+| 30 | libSceRtc.sprx |
+| 31 | libSceRudp.sprx |
+| 32 | libSceSystemGesture.sprx |
+| 33 | libScePadTracker.sprx |
+| 34 | libSceMoveTracker.sprx |
+
+</div>
+
+
+<div align="Left">
+
 ### Supported firmware modules (grouped)
 
 #### Audio & AV modules
