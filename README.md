@@ -37,7 +37,7 @@ SPDX-License-Identifier: GPL-2.0-or-later
 **shadPS4** is an early **PlayStation 4** emulator for **Windows**, **Linux** and **macOS** written in C++.
 
 > [!IMPORTANT]
-> This is the emulator core, which does not include a GUI. If you just want to use the emulator as an end user, download the [**QtLauncher**](https://github.com/shadps4-emu/shadps4-qtlauncher/releases) instead.
+> This is the emulator core, which does not include a GUI. If you just want to use the emulator as an end user, download the [**QtLauncher**](https://github.com/shadps4-emu/shadPS4-qtlauncher/releases[...] 
 
 If you encounter problems or have doubts, do not hesitate to look at the [**Quickstart**](https://github.com/shadps4-emu/shadPS4/wiki/I.-Quick-start-%5BUsers%5D).\
 To verify that a game works, you can look at [**shadPS4 Game Compatibility**](https://github.com/shadps4-compatibility/shadps4-game-compatibility).\
@@ -50,7 +50,7 @@ You can donate to the project via our [**Kofi page**](https://ko-fi.com/shadps4)
 > [!IMPORTANT]
 > shadPS4 is early in development, don't expect a flawless experience.
 
-Currently, the emulator can successfully run games like [**Bloodborne**](https://www.youtube.com/watch?v=5sZgWyVflFM), [**Dark Souls Remastered**](https://www.youtube.com/watch?v=-3PA-Xwszts), [**Red Dead Redemption**](https://www.youtube.com/watch?v=Al7yz_5nLag), and many other games.
+Currently, the emulator can successfully run games like [**Bloodborne**](https://www.youtube.com/watch?v=5sZgWyVflFM), [**Dark Souls Remastered**](https://www.youtube.com/watch?v=-3PA-Xwszts), [**[...]
 
 # Why
 
@@ -81,7 +81,7 @@ Check the build instructions for [**macOS**](https://github.com/shadps4-emu/shad
 # Usage examples
 
 > [!IMPORTANT]
-> For a user-friendly GUI, download the [**QtLauncher**](https://github.com/shadps4-emu/shadps4-qtlauncher/releases).
+> For a user-friendly GUI, download the [**QtLauncher**](https://github.com/shadps4-emu/shadPS4-qtlauncher/releases).
 
 To get the list of all available commands and also a more detailed description of what each command does, please refer to the `--help` flag's output.
 
@@ -96,12 +96,12 @@ shadPS4 CUSA00001 -- -flag1 -flag2 # Passes '-flag1' and '-flag2' to the game ex
 
 # Debugging and reporting issues
 
-For more information on how to test, debug and report issues with the emulator or games, read the [**Debugging documentation**](https://github.com/shadps4-emu/shadPS4/blob/main/documents/Debugging/Debugging.md).
+For more information on how to test, debug and report issues with the emulator or games, read the [**Debugging documentation**](https://github.com/shadps4-emu/shadPS4/blob/main/documents/Debugging/Deb[...] 
 
 # Keyboard and Mouse Mappings
 
 > [!NOTE]
-> Some keyboards may also require you to hold the Fn key to use the F\* keys. Mac users should use the Command key instead of Control, and need to use Command+F11 for full screen to avoid conflicting with system key bindings.
+> Some keyboards may also require you to hold the Fn key to use the F\* keys. Mac users should use the Command key instead of Control, and need to use Command+F11 for full screen to avoid conflicting [...]
 
 | Button | Function |
 |-------------|-------------|
@@ -141,7 +141,7 @@ R2 | O |
 L3 | X |
 R3 | M |
 
-Keyboard and mouse inputs can be customized in the settings menu by clicking the Controller button, and further details and help on controls are  also found there. Custom bindings are saved per-game. Inputs support up to three keys per binding, mouse buttons, mouse movement mapped to joystick input, and more.
+Keyboard and mouse inputs can be customized in the settings menu by clicking the Controller button, and further details and help on controls are  also found there. Custom bindings are saved per-game. [...]
 
 
 # Firmware files
@@ -151,17 +151,77 @@ The following firmware modules are supported and must be placed in shadPS4's `sy
 
 <div align="center">
 
-| Modules                        | Modules                        | Modules                        | Modules                        |
-|--------------------------------|--------------------------------|--------------------------------|--------------------------------|
-| libSceAt9Enc.sprx              | libSceAudiodec.sprx            | libSceAudiodecCpu.sprx         | libSceAudiodecCpuDdp.sprx      |
-| libSceAudiodecCpuDtsHdLbr.sprx | libSceAudiodecCpuHevag.sprx    | libSceAudiodecCpuM4aac.sprx    | libSceAvPlayer.sprx            |
-| libSceAvPlayerStreaming.sprx   | libSceBeisobmf.sprx            | libSceBemp2sys.sprx            | libSceCesCs.sprx               |
-| libSceFont.sprx                | libSceFontFt.sprx              | libSceFreeTypeOl.sprx          | libSceFreeTypeOptOl.sprx       |
-| libSceFreeTypeOt.sprx          | libSceJpegDec.sprx             | libSceJpegEnc.sprx             | libSceJson.sprx                |
-| libSceJson2.sprx               | libSceLibcInternal.sprx        | libSceNgs2.sprx                | libScePngEnc.sprx              |
-| libScePsmKitSystem.sprx        | libSceRtc.sprx                 | libSceRudp.sprx                | libSceSystemGesture.sprx       |
-| libSceUlt.sprx                 | libSceWkFontConfig.sprx        | libSceXml.sprx                 | libSceDepth.sprx               |
-| libScePadTracker.sprx          | libSceMoveTracker.sprx         |
+### Supported firmware modules (grouped)
+
+#### Audio & AV modules
+
+| No. | Module |
+|-----:|--------|
+| 1 | libSceAt9Enc.sprx |
+| 2 | libSceAudiodec.sprx |
+| 3 | libSceAudiodecCpu.sprx |
+| 4 | libSceAudiodecCpuDdp.sprx |
+| 5 | libSceAudiodecCpuDtsHdLbr.sprx |
+| 6 | libSceAudiodecCpuHevag.sprx |
+| 7 | libSceAudiodecCpuM4aac.sprx |
+| 8 | libSceAvPlayer.sprx |
+| 9 | libSceAvPlayerStreaming.sprx |
+
+#### Multimedia / Containers & playback
+
+| No. | Module |
+|-----:|--------|
+| 10 | libSceBeisobmf.sprx |
+| 11 | libSceBemp2sys.sprx |
+| 12 | libSceCesCs.sprx |
+| 13 | libSceNgs2.sprx |
+| 14 | libSceUlt.sprx |
+
+#### Fonts & text rendering
+
+| No. | Module |
+|-----:|--------|
+| 15 | libSceFont.sprx |
+| 16 | libSceFontFt.sprx |
+| 17 | libSceFreeTypeOl.sprx |
+| 18 | libSceFreeTypeOptOl.sprx |
+| 19 | libSceFreeTypeOt.sprx |
+| 20 | libSceWkFontConfig.sprx |
+
+#### Image & graphics codecs
+
+| No. | Module |
+|-----:|--------|
+| 21 | libSceJpegDec.sprx |
+| 22 | libSceJpegEnc.sprx |
+| 23 | libScePngEnc.sprx |
+| 24 | libSceDepth.sprx |
+
+#### Data & parsing
+
+| No. | Module |
+|-----:|--------|
+| 25 | libSceJson.sprx |
+| 26 | libSceJson2.sprx |
+| 27 | libSceXml.sprx |
+
+#### System & networking
+
+| No. | Module |
+|-----:|--------|
+| 28 | libSceLibcInternal.sprx |
+| 29 | libScePsmKitSystem.sprx |
+| 30 | libSceRtc.sprx |
+| 31 | libSceRudp.sprx |
+| 32 | libSceSystemGesture.sprx |
+
+#### Input & tracking
+
+| No. | Module |
+|-----:|--------|
+| 33 | libScePadTracker.sprx |
+| 34 | libSceMoveTracker.sprx |
+
 </div>
 
 > [!Caution]
@@ -196,15 +256,15 @@ Open a PR and we'll check it :)
 
 A few noteworthy teams/projects who've helped us along the way are:
 
-- [**Panda3DS**](https://github.com/wheremyfoodat/Panda3DS): A multiplatform 3DS emulator from our co-author wheremyfoodat. They have been incredibly helpful in understanding and solving problems that came up from natively executing the x64 code of PS4 binaries
+- [**Panda3DS**](https://github.com/wheremyfoodat/Panda3DS): A multiplatform 3DS emulator from our co-author wheremyfoodat. They have been incredibly helpful in understanding and solving problems[...]
 
-- [**fpPS4**](https://github.com/red-prig/fpPS4): The fpPS4 team has assisted massively with understanding some of the more complex parts of the PS4 operating system and libraries, by helping with reverse engineering work and research.
+- [**fpPS4**](https://github.com/red-prig/fpPS4): The fpPS4 team has assisted massively with understanding some of the more complex parts of the PS4 operating system and libraries, by helping with rev[...]
 
-- **yuzu**: Our shader compiler has been designed with yuzu's Hades compiler as a blueprint. This allowed us to focus on the challenges of emulating a modern AMD GPU while having a high-quality optimizing shader compiler implementation as a base.
+- **yuzu**: Our shader compiler has been designed with yuzu's Hades compiler as a blueprint. This allowed us to focus on the challenges of emulating a modern AMD GPU while having a high-quality optimi[...]
 
 - [**felix86**](https://github.com/OFFTKP/felix86): A new x86-64 → RISC-V Linux userspace emulator
 
-- [**emudev.org**](https://emudev.org/): A network of people interested in the documentation, emulation, simulation and re-implementation of hardware near extinction . Belongs to my friend skmp and me (shadow) also a member of it
+- [**emudev.org**](https://emudev.org/): A network of people interested in the documentation, emulation, simulation and re-implementation of hardware near extinction . Belongs to my friend skmp and me[...]
 
 # License
 
