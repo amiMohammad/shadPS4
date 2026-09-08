@@ -213,8 +213,7 @@ The following firmware modules are supported and must be placed in shadPS4's `sy
 | 29 | libScePsmKitSystem.sprx |
 | 30 | libSceRtc.sprx |
 | 31 | libSceRudp.sprx |
-| Input & tracking |
-|-----:|--------|
+| Input & tracking          |
 | 32 | libSceSystemGesture.sprx |
 | 33 | libScePadTracker.sprx |
 | 34 | libSceMoveTracker.sprx |
