@@ -154,7 +154,6 @@ The following firmware modules are supported and must be placed in shadPS4's `sy
 ### Supported firmware modules (grouped)
 
 #### Audio & AV modules
-
 | No. | Module |
 |-----:|--------|
 | 1 | libSceAt9Enc.sprx |
@@ -166,9 +165,7 @@ The following firmware modules are supported and must be placed in shadPS4's `sy
 | 7 | libSceAudiodecCpuM4aac.sprx |
 | 8 | libSceAvPlayer.sprx |
 | 9 | libSceAvPlayerStreaming.sprx |
-
 #### Multimedia / Containers & playback
-
 | No. | Module |
 |-----:|--------|
 | 10 | libSceBeisobmf.sprx |
@@ -176,9 +173,7 @@ The following firmware modules are supported and must be placed in shadPS4's `sy
 | 12 | libSceCesCs.sprx |
 | 13 | libSceNgs2.sprx |
 | 14 | libSceUlt.sprx |
-
 #### Fonts & text rendering
-
 | No. | Module |
 |-----:|--------|
 | 15 | libSceFont.sprx |
@@ -187,33 +182,29 @@ The following firmware modules are supported and must be placed in shadPS4's `sy
 | 18 | libSceFreeTypeOptOl.sprx |
 | 19 | libSceFreeTypeOt.sprx |
 | 20 | libSceWkFontConfig.sprx |
-
 #### Image & graphics codecs
-
 | No. | Module |
 |-----:|--------|
 | 21 | libSceJpegDec.sprx |
 | 22 | libSceJpegEnc.sprx |
 | 23 | libScePngEnc.sprx |
 | 24 | libSceDepth.sprx |
-
 #### Data & parsing
-
 | No. | Module |
 |-----:|--------|
 | 25 | libSceJson.sprx |
 | 26 | libSceJson2.sprx |
 | 27 | libSceXml.sprx |
-
 #### System & networking
-
 | No. | Module |
 |-----:|--------|
 | 28 | libSceLibcInternal.sprx |
 | 29 | libScePsmKitSystem.sprx |
 | 30 | libSceRtc.sprx |
 | 31 | libSceRudp.sprx |
-| Input & tracking          |
+#### Input & tracking
+| No. | Module |
+|-----:|--------|
 | 32 | libSceSystemGesture.sprx |
 | 33 | libScePadTracker.sprx |
 | 34 | libSceMoveTracker.sprx |
