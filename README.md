@@ -194,7 +194,7 @@ The following firmware modules are supported and must be placed in shadPS4's `sy
 
 <div align="Left">
 
-#### Supported firmware modules (grouped)
+### Supported firmware modules (grouped)
 
 <details>
 <summary><h3>Click to expand/collapse</h3></summary>
