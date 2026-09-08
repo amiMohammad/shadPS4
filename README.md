@@ -149,7 +149,7 @@ Keyboard and mouse inputs can be customized in the settings menu by clicking the
 shadPS4 can load some PlayStation 4 firmware files.
 The following firmware modules are supported and must be placed in shadPS4's `sys_modules` folder.
 
-<div align="center">
+<div align="Left">
 
 ### Supported firmware modules (grouped)
 
@@ -213,12 +213,12 @@ The following firmware modules are supported and must be placed in shadPS4's `sy
 | 29 | libScePsmKitSystem.sprx |
 | 30 | libSceRtc.sprx |
 | 31 | libSceRudp.sprx |
-| 32 | libSceSystemGesture.sprx |
 
 #### Input & tracking
 
 | No. | Module |
 |-----:|--------|
+| 32 | libSceSystemGesture.sprx |
 | 33 | libScePadTracker.sprx |
 | 34 | libSceMoveTracker.sprx |
 
